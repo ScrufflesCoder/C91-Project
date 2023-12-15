@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE MATH QUIZ</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css"
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+</head>
+<body class="w3-theme-d4">
+<h4 id="player1_name"></h4> <span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+<div class="container">
+    <center>
+        <h2 style="color: white; background-color: red;">!!!THE MATH QUIZ GAME!!!</h2>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>
+        <div id="output" class="col-lg-6"></div>
+        <br><br>
+        <label id="label1">Number 1: </label>
+        <input type="text" id="numinput1" class="form-control" placeholder="Enter your first number here">
+        <br><br>
+        <label id="label2">Number 2: </label>
+        <input type="text" id="numinput2" class="form-control" placeholder="Enter your second number here">
+        <br><br>
+        <button onclick="send()" class="btn btn-success" style="width: 30%;">SEND</button>
+    </center>
+</div>
+
+</div>
+<script src="quiz_game_page.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+
+.login_div1 , .login_div2
+	{
+		background:repeating-linear-gradient(#a83232 0%, #45248c 100%);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+.login{
+	color: white;
+}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: black;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.header
+{
+	background:linear-gradient( #0afae2 0%, #1e0afa 30%, #6d04d6 50%, #d60435 100%);
+	border-style: ridge;
+	border-width: 15px;
+	border-color:aquamarine;
+	color: white;
+	height:200px;
+	z-index: 5;
+	text-align: center;
+}
+.w3-container{
+	height:200px;
+}
+#btn1{
+	border-style:ridge;
+	border-width:5px;
+	border-color:green;
+	font-family:'Times New Roman', Times, serif;
+	font-size:20px;
+}
+#output{
+	background: blue;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
